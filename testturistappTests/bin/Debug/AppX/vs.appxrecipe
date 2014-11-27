@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LARFORT-PC</Machine>
+    <WindowsUser>Larfort</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>99fdd363-9448-43be-b7d3-058f9dd717f5</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Daniel\Desktop\TuristappFærdig\testturistappTests\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>C8C22E4AF0D518802FF2C5A7659288457D1147C3062FD71BC475A5D2B69D70F2</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>99fdd363-9448-43be-b7d3-058f9dd717f5_1.0.0.0_neutral__evv0za3d0das2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>99fdd363-9448-43be-b7d3-058f9dd717f5_evv0za3d0das2!vstest.executionengine.App</RegisteredUserModeAppID>
+    <RegisteredPackageID>99fdd363-9448-43be-b7d3-058f9dd717f5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Larfort</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistappTests\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-21T09:48:20.577</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistappTests\bin\Debug\testturistappTests.dll">
+      <PackagePath>testturistappTests.dll</PackagePath>
+      <Modified>2014-11-21T11:11:56.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistappTests\bin\Debug\testturistappTests.pdb">
+      <PackagePath>testturistappTests.pdb</PackagePath>
+      <Modified>2014-11-21T11:11:56.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\bin\Debug\testturistapp.pdb">
+      <PackagePath>testturistapp.pdb</PackagePath>
+      <Modified>2014-11-21T11:08:57.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll</PackagePath>
+      <Modified>2013-10-05T00:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>
+      <Modified>2013-10-05T00:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\bin\Debug\testturistapp.exe">
+      <PackagePath>testturistapp.exe</PackagePath>
+      <Modified>2014-11-21T11:08:57.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Core.dll</PackagePath>
+      <Modified>2013-10-05T00:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll</PackagePath>
+      <Modified>2013-10-05T00:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</PackagePath>
+      <Modified>2013-10-05T00:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll</PackagePath>
+      <Modified>2013-10-05T00:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Utilities.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Utilities.dll</PackagePath>
+      <Modified>2014-04-30T23:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.exe">
+      <PackagePath>vstest.executionengine.appcontainer.exe</PackagePath>
+      <Modified>2014-07-23T00:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.x86.exe">
+      <PackagePath>vstest.executionengine.appcontainer.x86.exe</PackagePath>
+      <Modified>2014-07-23T00:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistappTests\Images\UnitTestLogo.scale-100.png">
+      <PackagePath>Images\UnitTestLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistappTests\Images\UnitTestSmallLogo.scale-100.png">
+      <PackagePath>Images\UnitTestSmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistappTests\Images\UnitTestSplashScreen.scale-100.png">
+      <PackagePath>Images\UnitTestSplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistappTests\Images\UnitTestStoreLogo.scale-100.png">
+      <PackagePath>Images\UnitTestStoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2014-11-10T15:32:15.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\RSLOGO.png">
+      <PackagePath>Assets\RSLOGO.png</PackagePath>
+      <Modified>2014-11-06T12:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\RSLOGOBackGround.scale-100.png">
+      <PackagePath>Assets\RSLOGOBackGround.scale-100.png</PackagePath>
+      <Modified>2014-11-10T15:36:42.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\CafeVivaldi2.jpg">
+      <PackagePath>Assets\CafeVivaldi2.jpg</PackagePath>
+      <Modified>2014-11-10T15:00:53.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\logo-roskilde.jpg">
+      <PackagePath>Assets\logo-roskilde.jpg</PackagePath>
+      <Modified>2014-11-06T11:50:19.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\rostorv.jpg">
+      <PackagePath>Assets\rostorv.jpg</PackagePath>
+      <Modified>2014-10-31T09:46:00.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\RosTorv2.jpg">
+      <PackagePath>Assets\RosTorv2.jpg</PackagePath>
+      <Modified>2014-11-10T15:00:20.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\vikingemuseet.jpg">
+      <PackagePath>Assets\vikingemuseet.jpg</PackagePath>
+      <Modified>2014-10-31T09:51:51.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\VikingeMuseet2.jpg">
+      <PackagePath>Assets\VikingeMuseet2.jpg</PackagePath>
+      <Modified>2014-11-10T15:01:30.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\Assets\vivaldi.jpg">
+      <PackagePath>Assets\vivaldi.jpg</PackagePath>
+      <Modified>2014-11-05T11:52:10.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-21T09:47:43.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\bin\Debug\View\ItemDetailPage1.xbf">
+      <PackagePath>View\ItemDetailPage1.xbf</PackagePath>
+      <Modified>2014-11-21T09:47:43.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\bin\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+      <Modified>2014-11-21T09:47:43.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistapp\bin\Debug\testturistapp.xr.xml">
+      <PackagePath>testturistapp.xr.xml</PackagePath>
+      <Modified>2014-11-11T14:50:15.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Daniel\Desktop\TuristappFærdig\testturistappTests\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-21T11:11:07.680</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

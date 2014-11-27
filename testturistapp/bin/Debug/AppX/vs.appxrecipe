@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KASPER-MAC</Machine>
+    <WindowsUser>Kasper</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>41d6f1dd-d293-4c54-8d17-38f93e7c3168</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Kasper\Desktop\Turistapp4\testturistapp\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>77EA5063DACC1C78FFF96F6ED4D06040F09D6E6597E206546B02B5ED58229F91</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>41d6f1dd-d293-4c54-8d17-38f93e7c3168_1.0.0.0_neutral__evv0za3d0das2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>41d6f1dd-d293-4c54-8d17-38f93e7c3168_evv0za3d0das2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>41d6f1dd-d293-4c54-8d17-38f93e7c3168</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Larfort</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-26T09:21:52.269</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\bin\Debug\testturistapp.exe">
+      <PackagePath>testturistapp.exe</PackagePath>
+      <Modified>2014-11-27T09:33:52.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\packages\Newtonsoft.Json.6.0.6\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-11-25T11:47:59.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\CafeVivaldi2.jpg">
+      <PackagePath>Assets\CafeVivaldi2.jpg</PackagePath>
+      <Modified>2014-11-25T11:25:27.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\logo-roskilde.jpg">
+      <PackagePath>Assets\logo-roskilde.jpg</PackagePath>
+      <Modified>2014-11-25T11:25:27.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\rostorv.jpg">
+      <PackagePath>Assets\rostorv.jpg</PackagePath>
+      <Modified>2014-11-25T11:25:27.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\RosTorv2.jpg">
+      <PackagePath>Assets\RosTorv2.jpg</PackagePath>
+      <Modified>2014-11-25T11:25:27.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\vikingemuseet.jpg">
+      <PackagePath>Assets\vikingemuseet.jpg</PackagePath>
+      <Modified>2014-11-25T11:25:27.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\VikingeMuseet2.jpg">
+      <PackagePath>Assets\VikingeMuseet2.jpg</PackagePath>
+      <Modified>2014-11-25T11:25:27.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\vivaldi.jpg">
+      <PackagePath>Assets\vivaldi.jpg</PackagePath>
+      <Modified>2014-11-25T11:25:27.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-25T11:25:27.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\RSLOGO.png">
+      <PackagePath>Assets\RSLOGO.png</PackagePath>
+      <Modified>2014-11-25T11:25:27.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\RSLOGOBackGround.scale-100.png">
+      <PackagePath>Assets\RSLOGOBackGround.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-25T11:25:27.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-25T11:25:27.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2014-11-25T11:25:27.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-25T11:25:27.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-26T09:21:51.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\bin\Debug\View\ItemDetailPage1.xbf">
+      <PackagePath>View\ItemDetailPage1.xbf</PackagePath>
+      <Modified>2014-11-26T09:23:10.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\bin\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+      <Modified>2014-11-26T09:21:51.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\bin\Debug\testturistapp.xr.xml">
+      <PackagePath>testturistapp.xr.xml</PackagePath>
+      <Modified>2014-11-26T09:23:10.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kasper\Desktop\Turistapp4\testturistapp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-26T09:21:51.957</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="dff14626-f31f-4195-8ea2-aae76e6d8cf2"
+  name="diagram" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="11c4ae7b-b0ff-4c0f-872b-cb98608eea10">
+      <body>formålet med app'en er at turisterne kan gå ind på de valgte attraktioner, og få oplysninger, samt fortælle deres mening om dem. </body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="5de12f8a-c53a-4db8-b584-cd9a899753b3"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="0bc6cc46-5e7b-4fec-92af-12d5e543cb29"
+            isDerived="false"
+            sourceEndRoleName="Actor1"
+            targetEndRoleName="Vælger kategori"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="cc162f04-6daa-498a-ab3b-1de6ba7cbaf4"
+              LastKnownName="Vælger Attraktion"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c6997441-f2db-4ba8-8b36-aa27bbad3886"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="98081eac-0cff-4b54-a394-b94cfe809a9b"
+                  name="Vælger kategori"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cc162f04-6daa-498a-ab3b-1de6ba7cbaf4"
+        name="Vælger Attraktion"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="cfa965bd-e534-41ce-bb79-de84aa841bad"
+            isDerived="false"
+            sourceEndRoleName="Vælger kategori"
+            targetEndRoleName="Giver stedet en rating"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2b6c767f-767e-4749-8b13-0682f01bf514"
+              LastKnownName="Giver Attraktionen en rating"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9b052e44-d2b1-4e95-93ac-503483b52219"
+                  name="Vælger kategori"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="df26e1be-a7bc-4a6f-a823-287df99dc932"
+                  name="Giver stedet en rating"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8be6c9cb-5ba8-463d-b116-993adc093779"
+            isDerived="false"
+            sourceEndRoleName="Vælger kategori"
+            targetEndRoleName="Slet rating"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e37cec8a-0eb1-4bb1-afbe-8545f7b567e2"
+              LastKnownName="Slet rating"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="31b1e33a-ea09-4cc9-995c-b57c304dfe24"
+                  name="Vælger kategori"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a5ba0d8f-4758-4a13-9f4f-90b6ff725b6b"
+                  name="Slet rating"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2b6c767f-767e-4749-8b13-0682f01bf514"
+        name="Giver Attraktionen en rating"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="a44d5a37-051c-4c79-a778-c5f03117811f"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="c6a49fe8-cc7a-4960-ac89-efa6367a04d9"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="956e77d4-a9fd-440e-8e26-8e0a74d54f28"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="1e7050f6-1332-4079-a53a-6087362ea619"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="diagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="475dfc40-37a0-408d-b812-ad9d37f3e3f0"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="diagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4354804c-36f1-4bc3-9838-9e99c2f2af09"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b26a20de-831d-4916-8a32-58260fbf54c0"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="diagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="475dfc40-37a0-408d-b812-ad9d37f3e3f0"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="752a2b89-c5ce-4783-8b69-121063e66685"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="956e77d4-a9fd-440e-8e26-8e0a74d54f28"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4354804c-36f1-4bc3-9838-9e99c2f2af09"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="956e77d4-a9fd-440e-8e26-8e0a74d54f28"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="075a116e-972b-40a4-a772-51b8bf1fb09a"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="93831072-bbdb-4db5-96f0-f857758a7007"
+                LastKnownName="Gæst Aktør"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f2405016-2e61-486b-9f41-3ce8f06931b4"
+            name="MessageOccurrenceSpecification32">
+            <covered>
+              <lifelineMoniker
+                Id="93831072-bbdb-4db5-96f0-f857758a7007"
+                LastKnownName="Gæst Aktør"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b26a20de-831d-4916-8a32-58260fbf54c0"
+            name="MessageOccurrenceSpecification31">
+            <covered>
+              <lifelineMoniker
+                Id="956e77d4-a9fd-440e-8e26-8e0a74d54f28"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="1e7050f6-1332-4079-a53a-6087362ea619"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="27cade85-c02a-4756-8403-c77c5e71e8a8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="956e77d4-a9fd-440e-8e26-8e0a74d54f28"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="69d38497-7c11-4a10-9128-b70042aed413"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+                LastKnownName=": RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b604db38-cd9b-4f99-bc9c-cc596d49559c"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="diagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="20f186ac-8f8f-480a-a355-430c4b254690"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="diagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="80e4c88b-7924-4eaf-bc08-fde580f70e38"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="34d7b09f-62c6-449e-a4c0-9bfe5a047172"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ff090d00-3fcf-408a-a5b1-94cb656da879"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d06c2975-a244-45c7-a991-1ea5dc9f5594"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0340392c-480e-49f6-becd-2fb86fdfda8d"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ba4578da-d5dd-4900-8862-5c545b7e9e73"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="diagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="20f186ac-8f8f-480a-a355-430c4b254690"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="810c2ded-96fb-4ee8-a3a8-5b705ad8657b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+                LastKnownName=": RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="80e4c88b-7924-4eaf-bc08-fde580f70e38"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+                LastKnownName=": RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5e67f4e5-fca8-4336-8bcd-927f661424e8"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="93831072-bbdb-4db5-96f0-f857758a7007"
+                LastKnownName="Gæst Aktør"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="c9a6203a-f3ca-4d98-9dcd-744d1e621d8f"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="28a01d76-df20-4dd7-8dae-4cc2ef04062f"
+                LastKnownName=": Rating"
+                LastKnownLocation="diagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="321c97ba-e378-4d53-b552-09b350c6db52"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="diagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a20ea4c5-dd93-41c8-afc6-a9300b58dcd0"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="diagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="290bb836-ef78-4e29-86a1-457649edbc6b"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="42b947ca-20d1-4808-b1c7-31c669eb64ce"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="diagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a20ea4c5-dd93-41c8-afc6-a9300b58dcd0"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7392cd49-8934-416b-9235-be8250eaebd0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="28a01d76-df20-4dd7-8dae-4cc2ef04062f"
+                LastKnownName=": Rating"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="290bb836-ef78-4e29-86a1-457649edbc6b"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="28a01d76-df20-4dd7-8dae-4cc2ef04062f"
+                LastKnownName=": Rating"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="34d7b09f-62c6-449e-a4c0-9bfe5a047172"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+                LastKnownName=": RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="42b947ca-20d1-4808-b1c7-31c669eb64ce"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="28a01d76-df20-4dd7-8dae-4cc2ef04062f"
+                LastKnownName=": Rating"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ff090d00-3fcf-408a-a5b1-94cb656da879"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+                LastKnownName=": RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="321c97ba-e378-4d53-b552-09b350c6db52"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3be08a0f-5fa9-4ebf-99ed-0969cae61d5a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="28a01d76-df20-4dd7-8dae-4cc2ef04062f"
+                LastKnownName=": Rating"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="516ad87a-c3cd-4d32-9356-efa2deb4c679"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6435c2f1-e163-4672-9de2-c75298e9428b"
+                LastKnownName="SelectedKategori.Vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7e024022-63db-4bb0-88af-0ffe22b18924"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="diagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="66f7ddb0-63a2-49c1-840e-229aa19e8a89"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="diagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="00b9d150-0361-4712-bf3e-06e5b1de0e96"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5e87f9a8-61f4-4113-94b1-09600d7545ed"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="diagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="66f7ddb0-63a2-49c1-840e-229aa19e8a89"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7bc4ca92-188c-4aa7-bcef-3b3d8d3313fd"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6435c2f1-e163-4672-9de2-c75298e9428b"
+                LastKnownName="SelectedKategori.Vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="00b9d150-0361-4712-bf3e-06e5b1de0e96"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="6435c2f1-e163-4672-9de2-c75298e9428b"
+                LastKnownName="SelectedKategori.Vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d06c2975-a244-45c7-a991-1ea5dc9f5594"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+                LastKnownName=": RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0340392c-480e-49f6-becd-2fb86fdfda8d"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+                LastKnownName=": RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5e87f9a8-61f4-4113-94b1-09600d7545ed"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="6435c2f1-e163-4672-9de2-c75298e9428b"
+                LastKnownName="SelectedKategori.Vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7e024022-63db-4bb0-88af-0ffe22b18924"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e49366d3-1ad8-4f5f-a875-e94b5d2f584c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6435c2f1-e163-4672-9de2-c75298e9428b"
+                LastKnownName="SelectedKategori.Vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ba4578da-d5dd-4900-8862-5c545b7e9e73"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+                LastKnownName=": RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="68e270fd-c250-41c8-836a-adb87bb9a51d"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="93831072-bbdb-4db5-96f0-f857758a7007"
+                LastKnownName="Gæst Aktør"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b604db38-cd9b-4f99-bc9c-cc596d49559c"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5180acdb-7f85-4d3c-a970-a9a5c1407a43"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+                LastKnownName=": RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="93831072-bbdb-4db5-96f0-f857758a7007"
+            name="Gæst Aktør"
+            isActor="false"
+            lifelineDisplayName="Gæst Aktør">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="075a116e-972b-40a4-a772-51b8bf1fb09a"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f2405016-2e61-486b-9f41-3ce8f06931b4"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5e67f4e5-fca8-4336-8bcd-927f661424e8"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="68e270fd-c250-41c8-836a-adb87bb9a51d"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="diagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="99a0c8cb-27b9-4118-a818-dc171ea3a31e"
+            name=": RatingHandler"
+            isActor="false"
+            lifelineDisplayName=": RatingHandler">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="20f186ac-8f8f-480a-a355-430c4b254690"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="diagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b604db38-cd9b-4f99-bc9c-cc596d49559c"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="diagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="28a01d76-df20-4dd7-8dae-4cc2ef04062f"
+            name=": Rating"
+            isActor="false"
+            lifelineDisplayName=": Rating">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="a20ea4c5-dd93-41c8-afc6-a9300b58dcd0"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="diagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="321c97ba-e378-4d53-b552-09b350c6db52"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="diagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="6435c2f1-e163-4672-9de2-c75298e9428b"
+            name="SelectedKategori.Vurdering : ObservableCollection"
+            isActor="false"
+            lifelineDisplayName="SelectedKategori.Vurdering : ObservableCollection">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="66f7ddb0-63a2-49c1-840e-229aa19e8a89"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="diagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7e024022-63db-4bb0-88af-0ffe22b18924"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="diagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="956e77d4-a9fd-440e-8e26-8e0a74d54f28"
+            name="Kategoriviser : Observablecollection"
+            isActor="false"
+            lifelineDisplayName="Kategoriviser : Observablecollection">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="475dfc40-37a0-408d-b812-ad9d37f3e3f0"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="diagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1e7050f6-1332-4079-a53a-6087362ea619"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="diagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="b0722b92-03a0-4f71-800e-cb1772203c1e"
+            name="Vælg Kategori"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="075a116e-972b-40a4-a772-51b8bf1fb09a"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4354804c-36f1-4bc3-9838-9e99c2f2af09"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3d6f4192-5b05-49af-818f-fcf2740d6499"
+            name="&lt;&lt;Valgt kategori&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b26a20de-831d-4916-8a32-58260fbf54c0"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f2405016-2e61-486b-9f41-3ce8f06931b4"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="bd26e66b-b93e-4bdf-bcdc-763d3b299503"
+            name="OpretRating()"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5e67f4e5-fca8-4336-8bcd-927f661424e8"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="80e4c88b-7924-4eaf-bc08-fde580f70e38"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="22e43f3f-13f1-423d-8381-e89bbe95339e"
+            name="&lt;&lt;Rating&gt;&gt;"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="34d7b09f-62c6-449e-a4c0-9bfe5a047172"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="290bb836-ef78-4e29-86a1-457649edbc6b"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="54a07381-d105-407a-8a5e-f116182e35bf"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="42b947ca-20d1-4808-b1c7-31c669eb64ce"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ff090d00-3fcf-408a-a5b1-94cb656da879"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4d1437f0-f8b7-4995-a7b0-85a67a51a09c"
+            name="Addrating"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d06c2975-a244-45c7-a991-1ea5dc9f5594"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="00b9d150-0361-4712-bf3e-06e5b1de0e96"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e1234beb-8007-4bd9-8201-2ba62c95ae36"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5e87f9a8-61f4-4113-94b1-09600d7545ed"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0340392c-480e-49f6-becd-2fb86fdfda8d"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="41c93349-6a40-4296-9d5b-0d2eaa97af30"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ba4578da-d5dd-4900-8862-5c545b7e9e73"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="68e270fd-c250-41c8-836a-adb87bb9a51d"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="810c2ded-96fb-4ee8-a3a8-5b705ad8657b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5180acdb-7f85-4d3c-a970-a9a5c1407a43"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="58f0da6c-fe83-4167-b8f1-00dc81674257"
+        LastKnownName="View"
+        LastKnownLocation="Package_1303.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3b2fd661-aae7-4e05-9fc0-e47b79a7515b"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package_1304.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1998961e-db37-4e3f-b10f-7ea6a11f3939"
+        LastKnownName="Model"
+        LastKnownLocation="Package_1305.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7392cd49-8934-416b-9235-be8250eaebd0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3be08a0f-5fa9-4ebf-99ed-0969cae61d5a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7bc4ca92-188c-4aa7-bcef-3b3d8d3313fd"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e49366d3-1ad8-4f5f-a875-e94b5d2f584c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e37cec8a-0eb1-4bb1-afbe-8545f7b567e2"
+        name="Slet rating"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="57c388dc-d93e-41c7-8540-49e1b2447e9d"
+        name="Kategori"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="95dba919-064b-4314-bbbb-7383c1dc35c6"
+            isDerived="false"
+            sourceEndRoleName="Kategori"
+            targetEndRoleName="Vikingeskib"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="08524a39-aab7-42fc-ac1e-f112e0da2893"
+              LastKnownName="Vikingeskib"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1d0e212f-3b4a-4027-b570-b01a1042991f"
+                  name="Kategori"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="40e95d89-0328-4511-9674-2cb34d078260"
+                  name="Vikingeskib"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1f8c79d5-0505-4ce0-8cce-6bff033b79b8"
+            isDerived="false"
+            sourceEndRoleName="Kategori"
+            targetEndRoleName="Café Vivaldi"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="5ae41994-1909-427a-a7ab-60442edb5706"
+              LastKnownName="Café Vivaldi"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a527a67e-ad95-4b05-a57a-90cf5e157619"
+                  name="Kategori"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="480aa593-9490-4d30-bed7-aba9f3d5db61"
+                  name="Café Vivaldi"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="680332fd-b3be-48ec-97d4-9dd936a38de1"
+            isDerived="false"
+            sourceEndRoleName="Kategori"
+            targetEndRoleName="Ro's Torv"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="91240b9a-cdf3-4108-8e4b-8c31e3b54cf7"
+              LastKnownName="Ro's Torv"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d20f8297-191e-4ac1-a58f-12a22deb8146"
+                  name="Kategori"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="54d9813c-3e51-43af-ab06-b9adaa79eaf1"
+                  name="Ro's Torv"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cec52389-6227-4ed5-b47b-6a5438ce7db3"
+            isDerived="false"
+            sourceEndRoleName="Kategori"
+            targetEndRoleName="Rating"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6bae1b7d-4f72-4a55-a32b-109053aa4791"
+              LastKnownName="Rating"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="26400a52-8e8c-4be1-a6c7-4799aa1b2674"
+                  name="Kategori"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="92c612da-00af-42f8-99d5-40fbda231ddf"
+                      name="Lower"
+                      value="3" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8fc0563b-2669-4f5b-bf89-e7609dafc87f"
+                      name="Upper"
+                      value="3" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4b67e49d-3081-4a8b-b249-fd1472f40fcc"
+                  name="Rating"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f8f1176b-c369-46e4-aa99-0e0ba5f60f2e"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bde69359-ef65-49fc-89a8-37c73f39943e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="affa9d8d-9bcd-4bad-a542-ae91e0e97a92"
+            name="Navn"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="63ee99cc-1361-489b-b180-fa0ed234e338"
+            name="Billede"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="6e0ed8cf-a600-46ee-ad07-08d78d19a7d8"
+            name="Beskrivelse"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6bae1b7d-4f72-4a55-a32b-109053aa4791"
+        name="Rating"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="e8e2ca5e-7fd0-4b12-8dfd-44f5734eb815"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="630ac79a-3b82-44ba-b50f-03447153de87"
+            name="Star"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="dbf505d7-dbef-4e56-959b-ac3222e20b13"
+            name="Comment"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="08524a39-aab7-42fc-ac1e-f112e0da2893"
+        name="Vikingeskib"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="1572d093-a63b-42ad-b737-75874fd5f50f"
+            isDerived="false"
+            sourceEndRoleName="Vikingeskib"
+            targetEndRoleName="Rating"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6bae1b7d-4f72-4a55-a32b-109053aa4791"
+              LastKnownName="Rating"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3a13770b-03fd-4d17-a762-edbee7ae18b7"
+                  name="Vikingeskib"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a7bc4c3-cf0e-40ac-89a7-d77d17ffdd29"
+                  name="Rating"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="731889b1-86f8-48ee-899c-131a69cccedd"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="14e95655-d0f6-47a6-ae61-f31227d783af"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5ae41994-1909-427a-a7ab-60442edb5706"
+        name="Café Vivaldi"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="aea48f6c-2926-467a-9651-f68495a31558"
+            isDerived="false"
+            sourceEndRoleName="Café Vivaldi"
+            targetEndRoleName="Rating"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6bae1b7d-4f72-4a55-a32b-109053aa4791"
+              LastKnownName="Rating"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d1a80c4b-2358-4b2d-be54-f411aea18e5d"
+                  name="Café Vivaldi"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1497ec5a-5c16-43a9-aa2c-b476dbfae822"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="04a6bddf-ac69-4651-bf18-9b882d630eaf"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="31dd3e6d-c1b0-4ed5-8c16-14c088fe62e8"
+                  name="Rating"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="dad299ce-a534-4d7d-aa2e-6b8b6454fd8d"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="29982ade-58d4-4792-a57c-eb02f7cc7c7a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="91240b9a-cdf3-4108-8e4b-8c31e3b54cf7"
+        name="Ro's Torv"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="ebf27b2b-5217-46ea-b9e3-c0a489f9053d"
+            isDerived="false"
+            sourceEndRoleName="Ro's Torv"
+            targetEndRoleName="Rating"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6bae1b7d-4f72-4a55-a32b-109053aa4791"
+              LastKnownName="Rating"
+              LastKnownLocation="diagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="97d4cadb-13de-4750-a385-5caa31084852"
+                  name="Ro's Torv"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b98d89aa-4a1c-4c78-a68c-d3c06a0ab7ee"
+                  name="Rating"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1afb3525-768f-4f56-84cd-c3a0205dc619"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="23e4cfc2-325d-4572-8251-7d59390f0b91"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="752a2b89-c5ce-4783-8b69-121063e66685"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="27cade85-c02a-4756-8403-c77c5e71e8a8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="53ad22a8-9d27-4d82-9794-b090b8494a0b"
+        name="SletRating"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="a9e52aa2-3ac9-43bd-8c9f-f5ac3956ac83"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f86f0124-22b5-401a-9c54-e039958f0f8d"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="412c6e94-d374-4944-954f-c0964012679e"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="diagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="f6b7c781-2057-4541-977e-7ac100ba345e"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="diagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3024afbf-cbd0-4a5a-8f98-b249661cff4d"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f2f21990-ee4b-4436-b28c-3caac3a9e360"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="diagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="f6b7c781-2057-4541-977e-7ac100ba345e"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="44ae50f5-0ce0-43ac-b111-eff2744faf60"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f86f0124-22b5-401a-9c54-e039958f0f8d"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3024afbf-cbd0-4a5a-8f98-b249661cff4d"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="f86f0124-22b5-401a-9c54-e039958f0f8d"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="130a36ed-1472-45d9-98ab-d0d1c977127b"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="952e1dfb-48dc-4293-97dd-46c1b9f8deb8"
+                LastKnownName="Gæst : Aktør"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8bba5431-8917-4712-9a06-440d04b24136"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="952e1dfb-48dc-4293-97dd-46c1b9f8deb8"
+                LastKnownName="Gæst : Aktør"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f2f21990-ee4b-4436-b28c-3caac3a9e360"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="f86f0124-22b5-401a-9c54-e039958f0f8d"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="412c6e94-d374-4944-954f-c0964012679e"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="39dcb31e-11fa-4336-954c-1c511438eee4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f86f0124-22b5-401a-9c54-e039958f0f8d"
+                LastKnownName="Kategoriviser : Observablecollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="1e63146b-da3b-4442-a3e3-ed90a1b4da9e"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+                LastKnownName="RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="100993a1-51a9-4b56-a891-e9ba4109766f"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="diagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e211248a-23ce-4a09-bc76-c507ee9361c9"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="diagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f64f25f7-17c7-4e54-939c-3f6711234b2a"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a9a24222-f8b7-4d97-b60f-2afe172b69c0"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8598d33d-e893-4071-a9f2-c2b5fe121e96"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="79a80739-d698-42d7-9ce5-2bbbc6e349f9"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3f723a05-6011-4b54-8366-42578b4f040e"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1e946c82-853a-42fa-87fa-a376aa67a254"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="diagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e211248a-23ce-4a09-bc76-c507ee9361c9"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="94eddb09-7e53-450b-9b50-fcf42d4fce76"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+                LastKnownName="RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9e196432-24f8-448d-a7b7-ccb405195ef9"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="952e1dfb-48dc-4293-97dd-46c1b9f8deb8"
+                LastKnownName="Gæst : Aktør"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f64f25f7-17c7-4e54-939c-3f6711234b2a"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+                LastKnownName="RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="6d26904a-9350-44d5-a7da-15248b4db0bd"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b79f03e8-d4ec-4c27-b81f-71918d123e95"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="diagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="cb1a5147-0330-4c66-8162-a623dcd7e58f"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="diagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="28f1ce7e-143b-4657-8d08-58aac04127a9"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9cc51bb2-982d-46d2-b87e-a6961807dc29"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="diagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="cb1a5147-0330-4c66-8162-a623dcd7e58f"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="548bd0a0-22f2-4685-a28a-e6965c7e3ee1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a9a24222-f8b7-4d97-b60f-2afe172b69c0"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+                LastKnownName="RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="28f1ce7e-143b-4657-8d08-58aac04127a9"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9cc51bb2-982d-46d2-b87e-a6961807dc29"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8598d33d-e893-4071-a9f2-c2b5fe121e96"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+                LastKnownName="RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b79f03e8-d4ec-4c27-b81f-71918d123e95"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="572655bf-a6fd-45ea-b0f7-568a6ebf29b2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="4c1ac4f6-b178-4ef7-b3a2-0efef8072ee3"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b4fd1d8a-dbef-4357-a13c-2d197aff1d9c"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="diagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="bd0f72ae-6b0c-4cdd-9394-9497480114b9"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="diagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a57cdbc8-a53e-4f0a-9cbb-24af2d874e33"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3b530a6b-59ea-4d2c-a8ca-1b9ed764f3d4"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="diagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="bd0f72ae-6b0c-4cdd-9394-9497480114b9"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="37a5d571-e8be-46b1-bc89-293251be37c2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="79a80739-d698-42d7-9ce5-2bbbc6e349f9"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+                LastKnownName="RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a57cdbc8-a53e-4f0a-9cbb-24af2d874e33"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3f723a05-6011-4b54-8366-42578b4f040e"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+                LastKnownName="RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3b530a6b-59ea-4d2c-a8ca-1b9ed764f3d4"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b4fd1d8a-dbef-4357-a13c-2d197aff1d9c"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="33de3994-eef1-49b1-aea6-d186e4ee40a4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+                LastKnownName="SelectedKategori.vurdering : ObservableCollection"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="110d7e4e-7bcd-4837-8052-44cd7e4b5700"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="952e1dfb-48dc-4293-97dd-46c1b9f8deb8"
+                LastKnownName="Gæst : Aktør"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1e946c82-853a-42fa-87fa-a376aa67a254"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+                LastKnownName="RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="100993a1-51a9-4b56-a891-e9ba4109766f"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="10fe7ab3-aaf6-47e9-b4b2-acbdb9192ae2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="diagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+                LastKnownName="RatingHandler"
+                LastKnownLocation="diagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="952e1dfb-48dc-4293-97dd-46c1b9f8deb8"
+            name="Gæst : Aktør"
+            isActor="false"
+            lifelineDisplayName="Gæst : Aktør">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="130a36ed-1472-45d9-98ab-d0d1c977127b"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8bba5431-8917-4712-9a06-440d04b24136"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9e196432-24f8-448d-a7b7-ccb405195ef9"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="diagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="110d7e4e-7bcd-4837-8052-44cd7e4b5700"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="diagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="633d5f78-7c08-4655-8f90-ee0757b4ffcd"
+            name="RatingHandler"
+            isActor="false"
+            lifelineDisplayName="RatingHandler">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="e211248a-23ce-4a09-bc76-c507ee9361c9"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="diagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="100993a1-51a9-4b56-a891-e9ba4109766f"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="diagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="8b75fdc9-e0c7-4557-9b24-811b92b80fa2"
+            name="SelectedKategori.vurdering : ObservableCollection"
+            isActor="false"
+            lifelineDisplayName="SelectedKategori.vurdering : ObservableCollection">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="cb1a5147-0330-4c66-8162-a623dcd7e58f"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="diagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b79f03e8-d4ec-4c27-b81f-71918d123e95"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="diagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="bd0f72ae-6b0c-4cdd-9394-9497480114b9"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="diagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b4fd1d8a-dbef-4357-a13c-2d197aff1d9c"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="diagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="f86f0124-22b5-401a-9c54-e039958f0f8d"
+            name="Kategoriviser : Observablecollection"
+            isActor="false"
+            lifelineDisplayName="Kategoriviser : Observablecollection">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="f6b7c781-2057-4541-977e-7ac100ba345e"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="diagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="412c6e94-d374-4944-954f-c0964012679e"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="diagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="c99f804a-c3d9-472c-9070-881b7d7779ad"
+            name="Valgt Kategori"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="130a36ed-1472-45d9-98ab-d0d1c977127b"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3024afbf-cbd0-4a5a-8f98-b249661cff4d"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="a97ac715-20cd-4268-a354-1e80b71b417e"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f2f21990-ee4b-4436-b28c-3caac3a9e360"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8bba5431-8917-4712-9a06-440d04b24136"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4cf8cf77-5733-429c-ae4c-821ef089d56e"
+            name="SletRating()"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9e196432-24f8-448d-a7b7-ccb405195ef9"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f64f25f7-17c7-4e54-939c-3f6711234b2a"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ddfe5a66-f3d4-45bf-a619-a062f324241c"
+            name="SelectedRating"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a9a24222-f8b7-4d97-b60f-2afe172b69c0"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="28f1ce7e-143b-4657-8d08-58aac04127a9"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9b1c1ac1-7728-41e6-b19d-19f48f009384"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9cc51bb2-982d-46d2-b87e-a6961807dc29"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8598d33d-e893-4071-a9f2-c2b5fe121e96"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7509fe33-b3f4-4b13-97dc-4fbfbeaf9c7a"
+            name="RemoveRating"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="79a80739-d698-42d7-9ce5-2bbbc6e349f9"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a57cdbc8-a53e-4f0a-9cbb-24af2d874e33"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b8f46ce6-569b-44b0-b48a-8820eb4ef06b"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3b530a6b-59ea-4d2c-a8ca-1b9ed764f3d4"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3f723a05-6011-4b54-8366-42578b4f040e"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="71e864ba-7ac9-42cc-9919-5d0e1c868b68"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1e946c82-853a-42fa-87fa-a376aa67a254"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="diagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="110d7e4e-7bcd-4837-8052-44cd7e4b5700"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="diagram.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="94eddb09-7e53-450b-9b50-fcf42d4fce76"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="10fe7ab3-aaf6-47e9-b4b2-acbdb9192ae2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="548bd0a0-22f2-4685-a28a-e6965c7e3ee1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="572655bf-a6fd-45ea-b0f7-568a6ebf29b2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="37a5d571-e8be-46b1-bc89-293251be37c2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="33de3994-eef1-49b1-aea6-d186e4ee40a4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="44ae50f5-0ce0-43ac-b111-eff2744faf60"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="39dcb31e-11fa-4336-954c-1c511438eee4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

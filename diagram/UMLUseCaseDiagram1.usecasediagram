@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="e384a452-0a61-43c2-a3c3-2ee8612a55fa" name="UMLUseCaseDiagram1" linkedPackageId="d109ab0a-13a6-44da-949b-5e222aa13065" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="2334e0ba-b73d-4579-ab40-17acc1a25594">
+      <elementDefinition Id="11c4ae7b-b0ff-4c0f-872b-cb98608eea10" />
+      <body>formålet med app'en er at turisterne kan gå ind på de valgte attraktioner, og få oplysninger, samt fortælle deres mening om dem. </body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="dcc36f61-0b83-4673-a95a-92328a7350d7" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5de12f8a-c53a-4db8-b584-cd9a899753b3" />
+        <targetEnds>
+          <association Id="81145427-628d-42b9-acdb-dd0b6331b495" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="Vælger kategori" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="70f18917-a579-4858-8a26-1249ddc17fc5" LastKnownName="Vælger Attraktion" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="53f0f243-0416-4233-9ef9-445858bb0395" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c6997441-f2db-4ba8-8b36-aa27bbad3886" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="46e07883-c05d-40f3-b49d-dbf2d97b28df" name="Vælger kategori" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="98081eac-0cff-4b54-a394-b94cfe809a9b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0bc6cc46-5e7b-4fec-92af-12d5e543cb29" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="70f18917-a579-4858-8a26-1249ddc17fc5" name="Vælger Attraktion" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cc162f04-6daa-498a-ab3b-1de6ba7cbaf4" />
+        <targetEnds>
+          <association Id="b86b2f3e-fcf5-4479-a636-d45f5dba0974" isDerived="false" sourceEndRoleName="Vælger kategori" targetEndRoleName="Giver stedet en rating" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c5da1315-940b-43eb-8470-647f86a225fe" LastKnownName="Giver Attraktionen en rating" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="030b363c-f5b1-41c4-a3c6-446598416c8a" name="Vælger kategori" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9b052e44-d2b1-4e95-93ac-503483b52219" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58a38011-0e80-41ae-b94a-5520735aac19" name="Giver stedet en rating" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="df26e1be-a7bc-4a6f-a823-287df99dc932" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cfa965bd-e534-41ce-bb79-de84aa841bad" />
+          </association>
+          <association Id="50398f10-8c82-4e5c-b907-c53b44061118" isDerived="false" sourceEndRoleName="Vælger kategori" targetEndRoleName="Slet rating" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="62b8fa87-1c64-4c76-9dce-940537dc21fc" LastKnownName="Slet rating" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6c871102-d378-41ff-92bc-d79c67976c50" name="Vælger kategori" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="31b1e33a-ea09-4cc9-995c-b57c304dfe24" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7694ecea-6b2b-4205-b923-60f709a508c7" name="Slet rating" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a5ba0d8f-4758-4a13-9f4f-90b6ff725b6b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8be6c9cb-5ba8-463d-b116-993adc093779" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c5da1315-940b-43eb-8470-647f86a225fe" name="Giver Attraktionen en rating" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2b6c767f-767e-4749-8b13-0682f01bf514" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="62b8fa87-1c64-4c76-9dce-940537dc21fc" name="Slet rating" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e37cec8a-0eb1-4bb1-afbe-8545f7b567e2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="d109ab0a-13a6-44da-949b-5e222aa13065" name="diagram">
+    <elementDefinition Id="dff14626-f31f-4195-8ea2-aae76e6d8cf2" />
+    <profileInstances>
+      <packageHasProfileInstances Id="08aef89d-6a8e-4b20-8e85-a2667be2844a">
+        <profileInstance Id="6e607bb4-258e-498c-8b38-0e779aa62e60" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f1659248-7233-45a0-b0a9-3a94ad515b22">
+        <profileInstance Id="dd2decd9-3aa9-4916-977c-d3904fb9da18" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

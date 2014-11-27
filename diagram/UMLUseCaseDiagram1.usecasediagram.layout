@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLUseCaseDiagram1">
+  <useCaseModelRootMoniker Id="e384a452-0a61-43c2-a3c3-2ee8612a55fa" />
+  <nestedChildShapes>
+    <actorShape Id="fa4382be-6d79-4c90-93c7-5fff105bdb2d" absoluteBounds="1.75, 2.25, 0.5, 0.875" isReference="false" heightOffset="0">
+      <actorMoniker Id="dcc36f61-0b83-4673-a95a-92328a7350d7" LastKnownName="Actor1" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="2038b386-e3cf-4757-aaa3-0bf354cf1f19" absoluteBounds="3.125, 2.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="70f18917-a579-4858-8a26-1249ddc17fc5" LastKnownName="Vælger Attraktion" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.25 : 2.71634615384615); (3.13780440215269 : 2.81878512332531)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="81145427-628d-42b9-acdb-dd0b6331b495" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="fa4382be-6d79-4c90-93c7-5fff105bdb2d" />
+        <useCaseShapeMoniker Id="2038b386-e3cf-4757-aaa3-0bf354cf1f19" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="f50b03e9-b87c-4dad-85cc-a91a767be407" absoluteBounds="4.75, 2.25, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="c5da1315-940b-43eb-8470-647f86a225fe" LastKnownName="Giver Attraktionen en rating" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.10288950436098 : 2.80147853779062); (4.76019864967926 : 2.7003540538955)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b86b2f3e-fcf5-4479-a636-d45f5dba0974" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="2038b386-e3cf-4757-aaa3-0bf354cf1f19" />
+        <useCaseShapeMoniker Id="f50b03e9-b87c-4dad-85cc-a91a767be407" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="d467a648-3cd6-459d-bc6a-ae772e42e089" absoluteBounds="4.875, 3.25, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="62b8fa87-1c64-4c76-9dce-940537dc21fc" LastKnownName="Slet rating" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.01815916941121 : 3.02945538798298); (4.9516817253945 : 3.39619639211927)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="50398f10-8c82-4e5c-b907-c53b44061118" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="2038b386-e3cf-4757-aaa3-0bf354cf1f19" />
+        <useCaseShapeMoniker Id="d467a648-3cd6-459d-bc6a-ae772e42e089" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <commentShape Id="65a5d6b1-9047-4737-a015-2c16cdc1dc5f" absoluteBounds="1, 4, 2.25, 0.75" customColor="251, 247, 200">
+      <commentMoniker Id="2334e0ba-b73d-4579-ab40-17acc1a25594" />
+      <relativeChildShapes />
+    </commentShape>
+  </nestedChildShapes>
+</useCaseDiagram>
