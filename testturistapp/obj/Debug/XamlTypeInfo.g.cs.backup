@@ -263,6 +263,7 @@ namespace testturistapp.testturistapp_XamlTypeInfo
                 userType.AddMemberName("LoadCommand");
                 userType.AddMemberName("RatingHandler");
                 userType.AddMemberName("Kategoriviser");
+                userType.AddMemberName("SelectedRating");
                 userType.AddMemberName("Rating");
                 userType.AddMemberName("OpretRatingCommand");
                 userType.AddMemberName("RemoveRatingCommand");
@@ -567,72 +568,82 @@ namespace testturistapp.testturistapp_XamlTypeInfo
             var that = (global::testturistapp.Model.Kategori)instance;
             that.Billede2 = (global::System.String)Value;
         }
-        private object get_17_MainViewModel_Rating(object instance)
+        private object get_17_MainViewModel_SelectedRating(object instance)
+        {
+            var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
+            return that.SelectedRating;
+        }
+        private void set_17_MainViewModel_SelectedRating(object instance, object Value)
+        {
+            var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
+            that.SelectedRating = (global::testturistapp.Model.Rating)Value;
+        }
+        private object get_18_MainViewModel_Rating(object instance)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             return that.Rating;
         }
-        private void set_17_MainViewModel_Rating(object instance, object Value)
+        private void set_18_MainViewModel_Rating(object instance, object Value)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             that.Rating = (global::testturistapp.Viewmodel.RatingHandler)Value;
         }
-        private object get_18_MainViewModel_OpretRatingCommand(object instance)
+        private object get_19_MainViewModel_OpretRatingCommand(object instance)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             return that.OpretRatingCommand;
         }
-        private void set_18_MainViewModel_OpretRatingCommand(object instance, object Value)
+        private void set_19_MainViewModel_OpretRatingCommand(object instance, object Value)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             that.OpretRatingCommand = (global::testturistapp.Viewmodel.RelayCommand)Value;
         }
-        private object get_19_MainViewModel_RemoveRatingCommand(object instance)
+        private object get_20_MainViewModel_RemoveRatingCommand(object instance)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             return that.RemoveRatingCommand;
         }
-        private void set_19_MainViewModel_RemoveRatingCommand(object instance, object Value)
+        private void set_20_MainViewModel_RemoveRatingCommand(object instance, object Value)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             that.RemoveRatingCommand = (global::testturistapp.Viewmodel.RelayCommand)Value;
         }
-        private object get_20_MainViewModel_CafeVivaldi(object instance)
+        private object get_21_MainViewModel_CafeVivaldi(object instance)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             return that.CafeVivaldi;
         }
-        private void set_20_MainViewModel_CafeVivaldi(object instance, object Value)
+        private void set_21_MainViewModel_CafeVivaldi(object instance, object Value)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             that.CafeVivaldi = (global::testturistapp.Model.Kategori)Value;
         }
-        private object get_21_MainViewModel_VikingeMuseum(object instance)
+        private object get_22_MainViewModel_VikingeMuseum(object instance)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             return that.VikingeMuseum;
         }
-        private void set_21_MainViewModel_VikingeMuseum(object instance, object Value)
+        private void set_22_MainViewModel_VikingeMuseum(object instance, object Value)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             that.VikingeMuseum = (global::testturistapp.Model.Kategori)Value;
         }
-        private object get_22_MainViewModel_RosTorv(object instance)
+        private object get_23_MainViewModel_RosTorv(object instance)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             return that.RosTorv;
         }
-        private void set_22_MainViewModel_RosTorv(object instance, object Value)
+        private void set_23_MainViewModel_RosTorv(object instance, object Value)
         {
             var that = (global::testturistapp.Viewmodel.MainViewModel)instance;
             that.RosTorv = (global::testturistapp.Model.Kategori)Value;
         }
-        private object get_23_ItemDetailPage1_DefaultViewModel(object instance)
+        private object get_24_ItemDetailPage1_DefaultViewModel(object instance)
         {
             var that = (global::testturistapp.View.ItemDetailPage1)instance;
             return that.DefaultViewModel;
         }
-        private object get_24_ItemDetailPage1_NavigationHelper(object instance)
+        private object get_25_ItemDetailPage1_NavigationHelper(object instance)
         {
             var that = (global::testturistapp.View.ItemDetailPage1)instance;
             return that.NavigationHelper;
@@ -747,52 +758,58 @@ namespace testturistapp.testturistapp_XamlTypeInfo
                 xamlMember.Getter = get_16_Kategori_Billede2;
                 xamlMember.Setter = set_16_Kategori_Billede2;
                 break;
+            case "testturistapp.Viewmodel.MainViewModel.SelectedRating":
+                userType = (global::testturistapp.testturistapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("testturistapp.Viewmodel.MainViewModel");
+                xamlMember = new global::testturistapp.testturistapp_XamlTypeInfo.XamlMember(this, "SelectedRating", "testturistapp.Model.Rating");
+                xamlMember.Getter = get_17_MainViewModel_SelectedRating;
+                xamlMember.Setter = set_17_MainViewModel_SelectedRating;
+                break;
             case "testturistapp.Viewmodel.MainViewModel.Rating":
                 userType = (global::testturistapp.testturistapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("testturistapp.Viewmodel.MainViewModel");
                 xamlMember = new global::testturistapp.testturistapp_XamlTypeInfo.XamlMember(this, "Rating", "testturistapp.Viewmodel.RatingHandler");
-                xamlMember.Getter = get_17_MainViewModel_Rating;
-                xamlMember.Setter = set_17_MainViewModel_Rating;
+                xamlMember.Getter = get_18_MainViewModel_Rating;
+                xamlMember.Setter = set_18_MainViewModel_Rating;
                 break;
             case "testturistapp.Viewmodel.MainViewModel.OpretRatingCommand":
                 userType = (global::testturistapp.testturistapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("testturistapp.Viewmodel.MainViewModel");
                 xamlMember = new global::testturistapp.testturistapp_XamlTypeInfo.XamlMember(this, "OpretRatingCommand", "testturistapp.Viewmodel.RelayCommand");
-                xamlMember.Getter = get_18_MainViewModel_OpretRatingCommand;
-                xamlMember.Setter = set_18_MainViewModel_OpretRatingCommand;
+                xamlMember.Getter = get_19_MainViewModel_OpretRatingCommand;
+                xamlMember.Setter = set_19_MainViewModel_OpretRatingCommand;
                 break;
             case "testturistapp.Viewmodel.MainViewModel.RemoveRatingCommand":
                 userType = (global::testturistapp.testturistapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("testturistapp.Viewmodel.MainViewModel");
                 xamlMember = new global::testturistapp.testturistapp_XamlTypeInfo.XamlMember(this, "RemoveRatingCommand", "testturistapp.Viewmodel.RelayCommand");
-                xamlMember.Getter = get_19_MainViewModel_RemoveRatingCommand;
-                xamlMember.Setter = set_19_MainViewModel_RemoveRatingCommand;
+                xamlMember.Getter = get_20_MainViewModel_RemoveRatingCommand;
+                xamlMember.Setter = set_20_MainViewModel_RemoveRatingCommand;
                 break;
             case "testturistapp.Viewmodel.MainViewModel.CafeVivaldi":
                 userType = (global::testturistapp.testturistapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("testturistapp.Viewmodel.MainViewModel");
                 xamlMember = new global::testturistapp.testturistapp_XamlTypeInfo.XamlMember(this, "CafeVivaldi", "testturistapp.Model.Kategori");
-                xamlMember.Getter = get_20_MainViewModel_CafeVivaldi;
-                xamlMember.Setter = set_20_MainViewModel_CafeVivaldi;
+                xamlMember.Getter = get_21_MainViewModel_CafeVivaldi;
+                xamlMember.Setter = set_21_MainViewModel_CafeVivaldi;
                 break;
             case "testturistapp.Viewmodel.MainViewModel.VikingeMuseum":
                 userType = (global::testturistapp.testturistapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("testturistapp.Viewmodel.MainViewModel");
                 xamlMember = new global::testturistapp.testturistapp_XamlTypeInfo.XamlMember(this, "VikingeMuseum", "testturistapp.Model.Kategori");
-                xamlMember.Getter = get_21_MainViewModel_VikingeMuseum;
-                xamlMember.Setter = set_21_MainViewModel_VikingeMuseum;
+                xamlMember.Getter = get_22_MainViewModel_VikingeMuseum;
+                xamlMember.Setter = set_22_MainViewModel_VikingeMuseum;
                 break;
             case "testturistapp.Viewmodel.MainViewModel.RosTorv":
                 userType = (global::testturistapp.testturistapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("testturistapp.Viewmodel.MainViewModel");
                 xamlMember = new global::testturistapp.testturistapp_XamlTypeInfo.XamlMember(this, "RosTorv", "testturistapp.Model.Kategori");
-                xamlMember.Getter = get_22_MainViewModel_RosTorv;
-                xamlMember.Setter = set_22_MainViewModel_RosTorv;
+                xamlMember.Getter = get_23_MainViewModel_RosTorv;
+                xamlMember.Setter = set_23_MainViewModel_RosTorv;
                 break;
             case "testturistapp.View.ItemDetailPage1.DefaultViewModel":
                 userType = (global::testturistapp.testturistapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("testturistapp.View.ItemDetailPage1");
                 xamlMember = new global::testturistapp.testturistapp_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "testturistapp.Common.ObservableDictionary");
-                xamlMember.Getter = get_23_ItemDetailPage1_DefaultViewModel;
+                xamlMember.Getter = get_24_ItemDetailPage1_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "testturistapp.View.ItemDetailPage1.NavigationHelper":
                 userType = (global::testturistapp.testturistapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("testturistapp.View.ItemDetailPage1");
                 xamlMember = new global::testturistapp.testturistapp_XamlTypeInfo.XamlMember(this, "NavigationHelper", "testturistapp.Common.NavigationHelper");
-                xamlMember.Getter = get_24_ItemDetailPage1_NavigationHelper;
+                xamlMember.Getter = get_25_ItemDetailPage1_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

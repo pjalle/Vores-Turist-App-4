@@ -18,8 +18,22 @@ namespace testturistapp.Model
         public string Name
         {
             get { return _name; }
-            set { _name = value;}
+            set
+            {
+                CheckName(value);
+                _name = value;
+            }
         }
+
+        public static void CheckName(string name)
+        {
+            if (name.Length < 2 || 30 < name.Length)
+            {
+                throw new ArgumentException("Der skal minimum indtastes 2 cifre, og max 30");
+            }
+        }
+
+
 
         public string RatingComment
         {

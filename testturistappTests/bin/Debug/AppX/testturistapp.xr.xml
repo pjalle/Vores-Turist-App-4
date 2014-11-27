@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="RemoveRatingCommand" />
-    <RootPropertyPathName Name="OpretRatingCommand" />
+    <RootPropertyPathName Name="SaveCommand" />
+    <RootPropertyPathName Name="LoadCommand" />
+    <RootPropertyPathName Name="AddCommand" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
-    <RootPropertyPathName Name="SelectedKategori" />
-    <RootPropertyPathName Name="Vurderinger" />
+    <RootPropertyPathName Name="Ratings" />
     <RootPropertyPathName Name="SelectedRating" />
-    <RootPropertyPathName Name="Rating" />
-    <RootPropertyPathName Name="Stars" />
-    <RootPropertyPathName Name="Comment" />
+    <RootPropertyPathName Name="RatingStjerner" />
+    <RootPropertyPathName Name="RatingComment" />
     <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="RatingSjerner" />
+    <RootPropertyPathName Name="SelectedKategori" />
     <RootPropertyPathName Name="Billede2" />
     <RootPropertyPathName Name="Beskrivelse" />
     <RootPropertyPathName Name="Navn" />
@@ -45,6 +46,7 @@
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="ElementName" />
       <RootProperty Name="Mode" />
+      <RootProperty Name="UpdateSourceTrigger" />
     </RootType>
     <RootType FullName="testturistapp.Viewmodel.MainViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">

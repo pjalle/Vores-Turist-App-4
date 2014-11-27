@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>KASPER-MAC</Machine>
-    <WindowsUser>Kasper</WindowsUser>
+    <Machine>LARFORT-PC</Machine>
+    <WindowsUser>Larfort</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>99fdd363-9448-43be-b7d3-058f9dd717f5</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistappTests\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistappTests\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistappTests\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistappTests\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistappTests\bin\Debug\testturistappTests.dll">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistappTests\bin\Debug\testturistappTests.dll">
       <PackagePath>testturistappTests.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistappTests\bin\Debug\testturistappTests.pdb">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistappTests\bin\Debug\testturistappTests.pdb">
       <PackagePath>testturistappTests.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\bin\Debug\testturistapp.pdb">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\bin\Debug\testturistapp.pdb">
       <PackagePath>testturistapp.pdb</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll">
@@ -31,10 +31,10 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
       <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\bin\Debug\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\bin\Debug\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\bin\Debug\testturistapp.exe">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\bin\Debug\testturistapp.exe">
       <PackagePath>testturistapp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Core.dll">
@@ -58,74 +58,74 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.x86.exe">
       <PackagePath>vstest.executionengine.appcontainer.x86.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistappTests\Images\UnitTestLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistappTests\Images\UnitTestLogo.scale-100.png">
       <PackagePath>Images\UnitTestLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistappTests\Images\UnitTestSmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistappTests\Images\UnitTestSmallLogo.scale-100.png">
       <PackagePath>Images\UnitTestSmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistappTests\Images\UnitTestSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistappTests\Images\UnitTestSplashScreen.scale-100.png">
       <PackagePath>Images\UnitTestSplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistappTests\Images\UnitTestStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistappTests\Images\UnitTestStoreLogo.scale-100.png">
       <PackagePath>Images\UnitTestStoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\RSLOGO.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\RSLOGO.png">
       <PackagePath>Assets\RSLOGO.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\RSLOGOBackGround.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\RSLOGOBackGround.scale-100.png">
       <PackagePath>Assets\RSLOGOBackGround.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\CafeVivaldi2.jpg">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\CafeVivaldi2.jpg">
       <PackagePath>Assets\CafeVivaldi2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\logo-roskilde.jpg">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\logo-roskilde.jpg">
       <PackagePath>Assets\logo-roskilde.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\rostorv.jpg">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\rostorv.jpg">
       <PackagePath>Assets\rostorv.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\RosTorv2.jpg">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\RosTorv2.jpg">
       <PackagePath>Assets\RosTorv2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\vikingemuseet.jpg">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\vikingemuseet.jpg">
       <PackagePath>Assets\vikingemuseet.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\VikingeMuseet2.jpg">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\VikingeMuseet2.jpg">
       <PackagePath>Assets\VikingeMuseet2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\Assets\vivaldi.jpg">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\Assets\vivaldi.jpg">
       <PackagePath>Assets\vivaldi.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\bin\Debug\View\ItemDetailPage1.xbf">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\bin\Debug\View\ItemDetailPage1.xbf">
       <PackagePath>View\ItemDetailPage1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\bin\Debug\View\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistapp\bin\Debug\testturistapp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistapp\bin\Debug\testturistapp.xr.xml">
       <PackagePath>testturistapp.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kasper\Documents\GitHub\Turistapp4\testturistappTests\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Daniel\Documents\GitHub\Vores-Turist-App-4\testturistappTests\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
